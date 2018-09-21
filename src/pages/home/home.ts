@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
-import { NavController, AlertController } from 'ionic-angular';
+import { NavController } from 'ionic-angular';
 import { contentPage } from '../content/content';
-import { DataProvider } from "../../providers/data/data";
 
 
 @Component({
@@ -10,33 +9,26 @@ import { DataProvider } from "../../providers/data/data";
 })
 export class HomePage {
 
-	constructor(public navCtrl: NavController, 
-		public alertCtrl: AlertController,
-    public serDatos: DataProvider) {
+	constructor(public navCtrl: NavController) {
 
   }
 AbrirPagina(tema) {
 	switch(tema){
-/*
-		case ("lug"):
-			this.navCtrl.push(contentPage, {{ lug: nombre}});
-			break;
-		case ("hot"):
-			this.navCtrl.push(contentPage, {{ lug: nombre}});
-			break;
-		case ("cab"):
-			this.navCtrl.push(contentPage, {{ lug: nombre}});
-			break;
-		case ("res"):
-			this.navCtrl.push(contentPage, {{lug: nombre}});
-			break;
-*/
-	}
 
+		case ("Lugares"):
+			this.navCtrl.push(contentPage, { opcion : tema });
+			break;
+		case ("Hospedaje"):
+			this.navCtrl.push(contentPage, { opcion: tema });
+			break;
+		case ("Gastronomia"):
+			this.navCtrl.push(contentPage, { opcion: tema });
+			break;
+		case ("Actividades"):
+			this.navCtrl.push(contentPage, { opcion: tema });
+			break;
+
+	}
 }
 
-/*
-    this.navCtrl.push(contentPage, );
-	}
-	*/
 }

@@ -6,13 +6,43 @@
 -->
 <ion-header>
 
+   
   <ion-navbar>
-    <ion-title>content</ion-title>
+    <ion-title>asdasd</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding>
+<ion-content class="cards-bg">
+ 
+  NOM:  {{objeto}}
+    <ion-card  *ngFor="let elemento of SerDatos.Lugares">
+    <img src="{{elemento.imagen}}"/>
+    <ion-card-content>
+      <ion-card-title>
+        {{elemento.nombre}}
+      </ion-card-title>
+      <p>
+       DESC {{elemento.descripcion}}
+      </p>
+    </ion-card-content>
+
+    <ion-row no-padding>
+      <ion-col>
+        <button ion-button clear small color="danger" icon-start>
+          <ion-icon name='md-map'></ion-icon>
+          Ubicación
+        </button>
+      </ion-col>
+      <ion-col text-center>
+        <button ion-button clear small color="primary" icon-start>
+          <ion-icon name='md-images'></ion-icon>
+          Fotos
+        </button>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+
 
 </ion-content>
