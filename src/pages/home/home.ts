@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, AlertController } from 'ionic-angular';
 import { contentPage } from '../content/content';
-import { DatosProvider } from "../../Providers/data/data";
+import { DataProvider } from "../../providers/data/data";
+
 
 @Component({
   selector: 'page-home',
@@ -9,32 +10,33 @@ import { DatosProvider } from "../../Providers/data/data";
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController, public alertCtrl: AlertController,
-    public serDatos: DatosProvider,
-    public alerta: AlertControler) {
+	constructor(public navCtrl: NavController, 
+		public alertCtrl: AlertController,
+    public serDatos: DataProvider) {
 
   }
 AbrirPagina(tema) {
-	switch(this){
-
+	switch(tema){
+/*
 		case ("lug"):
-			this.navCtrl.push(contentPage, {{lug: nombre}});
+			this.navCtrl.push(contentPage, {{ lug: nombre}});
 			break;
 		case ("hot"):
-			this.navCtrl.push(contentPage, {{lug: nombre}});
+			this.navCtrl.push(contentPage, {{ lug: nombre}});
 			break;
 		case ("cab"):
-			this.navCtrl.push(contentPage, {{lug: nombre}});
+			this.navCtrl.push(contentPage, {{ lug: nombre}});
 			break;
 		case ("res"):
 			this.navCtrl.push(contentPage, {{lug: nombre}});
 			break;
-
+*/
 	}
 
 }
 
-
+/*
     this.navCtrl.push(contentPage, );
-  }
+	}
+	*/
 }

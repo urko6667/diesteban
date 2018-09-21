@@ -1,6 +1,4 @@
-import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-
 /*
   Generated class for the DataProvider provider.
 
@@ -10,7 +8,7 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class DataProvider {
 
-  constructor(public http: HttpClient) {
+  constructor() {
     console.log('Hello DataProvider Provider');
   }
 
