@@ -8,7 +8,7 @@
 
    
   <ion-navbar>
-    <ion-title>asdasd</ion-title>
+    <ion-title>{{objeto}}</ion-title>
   </ion-navbar>
 
 </ion-header>
@@ -16,15 +16,14 @@
 
 <ion-content class="cards-bg">
  
-  NOM:  {{objeto}}
-    <ion-card  *ngFor="let elemento of SerDatos.Lugares">
+    <ion-card  *ngFor="let elemento of informacion">
     <img src="{{elemento.imagen}}"/>
     <ion-card-content>
       <ion-card-title>
         {{elemento.nombre}}
       </ion-card-title>
       <p>
-       DESC {{elemento.descripcion}}
+       {{elemento.descripcion}}
       </p>
     </ion-card-content>
 
