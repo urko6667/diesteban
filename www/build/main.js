@@ -244,7 +244,11 @@ var contentPage = /** @class */ (function () {
     }
     contentPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+<<<<<<< HEAD
             selector: 'page-content',template:/*ion-inline-start:"C:\Users\ik_2dm3\Desktop\Ionic\ProyectoEsteban\src\pages\content\content.html"*/'<!--\n\n  Generated template for the ContentPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n   \n\n  <ion-navbar>\n\n    <ion-title>{{objeto}}</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content class="cards-bg">\n\n \n\n    <ion-card  *ngFor="let elemento of informacion">\n\n    <img src="{{elemento.imagen}}"/>\n\n    <ion-card-content>\n\n      <ion-card-title>\n\n        {{elemento.nombre}}\n\n      </ion-card-title>\n\n      <p>\n\n       {{elemento.descripcion}}\n\n      </p>\n\n    </ion-card-content>\n\n\n\n    <ion-row no-padding>\n\n      <ion-col>\n\n        <button ion-button clear small color="danger" icon-start>\n\n          <ion-icon name=\'md-map\'></ion-icon>\n\n          Ubicación\n\n        </button>\n\n      </ion-col>\n\n      <ion-col text-center>\n\n        <button ion-button clear small color="primary" icon-start>\n\n          <ion-icon name=\'md-images\'></ion-icon>\n\n          Fotos\n\n        </button>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-card>\n\n\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\ik_2dm3\Desktop\Ionic\ProyectoEsteban\src\pages\content\content.html"*/,
+=======
+            selector: 'page-content',template:/*ion-inline-start:"F:\ionic\src\pages\content\content.html"*/'<!--\n\n  Generated template for the ContentPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n   \n\n  <ion-navbar>\n\n    <ion-title>{{objeto}}</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content class="cards-bg">\n\n \n\n    <ion-card  *ngFor="let elemento of informacion">\n\n    <img src="{{elemento.imagen}}"/>\n\n    <ion-card-content>\n\n      <ion-card-title>\n\n        {{elemento.nombre}}\n\n      </ion-card-title>\n\n      <p>\n\n       {{elemento.descripcion}}\n\n      </p>\n\n    </ion-card-content>\n\n\n\n    <ion-row no-padding>\n\n      <ion-col>\n\n        <button ion-button clear small color="danger" icon-start>\n\n          <ion-icon name=\'md-map\'></ion-icon>\n\n          Ubicación\n\n        </button>\n\n      </ion-col>\n\n      <ion-col text-center>\n\n        <button ion-button clear small color="primary" icon-start>\n\n          <ion-icon name=\'md-images\'></ion-icon>\n\n          Fotos\n\n        </button>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-card>\n\n\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"F:\ionic\src\pages\content\content.html"*/,
+>>>>>>> 5b11feaffda7dd7b21e95a8d89b8330363313668
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_data_data__["a" /* DataProvider */]])
     ], contentPage);
@@ -385,7 +389,11 @@ var HomePage = /** @class */ (function () {
     };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+<<<<<<< HEAD
             selector: 'page-home',template:/*ion-inline-start:"C:\Users\ik_2dm3\Desktop\Ionic\ProyectoEsteban\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      Urdaibai Link\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content class="card-background-page">\n\n  <ion-card (click)="AbrirPagina(\'Lugares\')">\n\n    <img src="../../assets/imgs/Interes.jpg"/>\n\n    <div class="card-title">Lugares</div>\n\n  </ion-card>\n\n\n\n  <ion-card (click)="AbrirPagina(\'Hospedaje\')">\n\n    <img src="../../assets/imgs/Hotel.jpg"/>\n\n    <div class="card-title">Hospedaje</div>\n\n  </ion-card>\n\n\n\n  <ion-card (click)="AbrirPagina(\'Gastronomia\')">\n\n    <img src="../../assets/imgs/Restaurante.jpg" />\n\n    <div class="card-title">Gastronomia</div>\n\n  </ion-card>\n\n\n\n  <ion-card (click)="AbrirPagina(\'Actividades\')">\n\n    <img src="../../assets/imgs/Caballo.jpg"/>\n\n    <div class="card-title">Actividades</div>\n\n  </ion-card>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\ik_2dm3\Desktop\Ionic\ProyectoEsteban\src\pages\home\home.html"*/
+=======
+            selector: 'page-home',template:/*ion-inline-start:"F:\ionic\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      Urdaibai Link\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content class="card-background-page">\n\n  <ion-card (click)="AbrirPagina(\'Lugares\')">\n\n    <img src="../../assets/imgs/Interes.jpg"/>\n\n    <div class="card-title">Lugares</div>\n\n  </ion-card>\n\n\n\n  <ion-card (click)="AbrirPagina(\'Hospedaje\')">\n\n    <img src="../../assets/imgs/Hotel.jpg"/>\n\n    <div class="card-title">Hospedaje</div>\n\n  </ion-card>\n\n\n\n  <ion-card (click)="AbrirPagina(\'Gastronomia\')">\n\n    <img src="../../assets/imgs/Restaurante.jpg" />\n\n    <div class="card-title">Gastronomia</div>\n\n  </ion-card>\n\n\n\n  <ion-card (click)="AbrirPagina(\'Actividades\')">\n\n    <img src="../../assets/imgs/Caballo.jpg"/>\n\n    <div class="card-title">Actividades</div>\n\n  </ion-card>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"F:\ionic\src\pages\home\home.html"*/
+>>>>>>> 5b11feaffda7dd7b21e95a8d89b8330363313668
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
     ], HomePage);
@@ -516,7 +524,11 @@ var MyApp = /** @class */ (function () {
         });
     }
     MyApp = __decorate([
+<<<<<<< HEAD
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\ik_2dm3\Desktop\Ionic\ProyectoEsteban\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n\n'/*ion-inline-end:"C:\Users\ik_2dm3\Desktop\Ionic\ProyectoEsteban\src\app\app.html"*/
+=======
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"F:\ionic\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n\n'/*ion-inline-end:"F:\ionic\src\app\app.html"*/
+>>>>>>> 5b11feaffda7dd7b21e95a8d89b8330363313668
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
