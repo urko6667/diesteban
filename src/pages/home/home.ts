@@ -13,22 +13,8 @@ export class HomePage {
 
   }
 AbrirPagina(tema) {
-	switch(tema){
 
-		case ("Lugares"):
-			this.navCtrl.push(contentPage, { opcion : tema });
-			break;
-		case ("Hospedaje"):
-			this.navCtrl.push(contentPage, { opcion: tema });
-			break;
-		case ("Gastronomia"):
-			this.navCtrl.push(contentPage, { opcion: tema });
-			break;
-		case ("Actividades"):
-			this.navCtrl.push(contentPage, { opcion: tema });
-			break;
-
-	}
+		this.navCtrl.push(contentPage, { opcion : tema });
 }
 
 }

@@ -24,51 +24,52 @@ export class contentPage {
       this.informacion = [ 
         {
           nombre: "Bermeo",
-          ubicacion: "País Vasco",
+          ubicacion: "Bizkaia",
           descripcion: "Fundada en 1236, la villa ostentó el título de 'Cabeza de Vizcaya' desde el año 1476 hasta 1602, siendo la principal población del Señorío de Vizcaya.",
           imagen: "../../assets/imgs/Lugares/bermeo.jpg",
+          tema: 1,
         },
         {
           nombre: "Mundaka",
-          ubicacion: "País Vasco",
+          ubicacion: "Bizkaia",
           descripcion: "Mundaka es una anteiglesia y municipio de España situado en la margen izquierda de la desembocadura de la ría de Mundaca, al norte de la provincia de Vizcaya, en la comunidad autónoma del País Vasco.",
           imagen: "../../assets/imgs/Lugares/mundaka.jpg",
+          tema: 1,
         },
         {
-          nombre: "Lugar 3",
-          ubicacion: "Lugar 3",
-          descripcion: "Lugar 3",
-          imagen: "Lugar 3",
+          nombre: "Bilbao",
+          ubicacion: "Bizkaia",
+          descripcion: "Es la capital de facto del País Vasco y su centro está repleto de rascacielos. Es famosa por el Museo Guggenheim Bilbao, diseñado por Frank Gehry, que provocó la revitalización de la ciudad tras su inauguración en 1997.",
+          imagen: "../../assets/imgs/Lugares/bilbao.jpg",
+          tema: 1,
         },
         {
-          nombre: "Lugar 4",
-          ubicacion: "Lugar 4",
-          descripcion: "Lugar 4",
-          imagen: "Lugar 6",
+          nombre: "Bakio",
+          ubicacion: "Bizkaia",
+          descripcion: "El municipio se llamaba antiguamente Basigo de Bakio, siendo este el nombre de su principal barrio. Está formado por un pequeño valle drenado en su interior por el río Zarraga o Estepona, y el pequeño Ondarra que desemboca en plena playa.",
+          imagen: "../../assets/imgs/Lugares/bakio.jpg",
+          tema: 1,
         },
         {
-          nombre: "Lugar 5",
-          ubicacion: "Lugar 5",
-          descripcion: "Lugar 5",
-          imagen: "Lugar 6",
+          nombre: "Lekeitio",
+          ubicacion: "Bizkaia",
+          descripcion: "Situada a orillas del golfo de Vizcaya en la cornisa cantábrica, Lequeitio es un destino turístico importante. Un paisaje privilegiado adornado con la isla de San Nicolás y la ría del Lea y con dos amplias playas.",
+          imagen: "../../assets/imgs/Lugares/lekeitio.jpg",
+          tema: 1,
         },
         {
-          nombre: "Lugar 6",
-          ubicacion: "Lugar 6",
-          descripcion: "Lugar 6",
-          imagen: "Lugar 6",
+          nombre: "San Juan de Gaztelugatxe",
+          ubicacion: "Bizkaia",
+          descripcion: "Gaztelugatxe es un islote de la localidad vizcaína de Bermeo. Está unido al continente por un puente de dos arcos. Sobre la isla hay una ermita dedicada a San Juan que data del siglo X, aunque algunos descubrimientos datan del siglo IX.",
+          imagen: "../../assets/imgs/Lugares/gaztelugatxe.jpg",
+          tema: 1,
         },
         {
-          nombre: "Lugar 7",
-          ubicacion: "Lugar 7",
-          descripcion: "Lugar 7",
-          imagen: "Lugar 7",
-        },
-        {
-          nombre: "Lugar 8",
-          ubicacion: "Lugar 8",
-          descripcion: "Lugar 8",
-          imagen: "Lugar 8",
+          nombre: "Zelaieta",
+          ubicacion: "Bizkaia",
+          descripcion: "Pueblo muy bonito",
+          imagen: "../../assets/imgs/Lugares/zelaieta.jpg",
+          tema: 1,
         }, ];
   
     } 
@@ -76,16 +77,16 @@ export class contentPage {
 
       this.informacion = [ 
         {
-          nombre: "Hospedaje 1",
-          ubicacion: "Hospedaje 1",
+          nombre: "Hotel Occidental",
+          ubicacion: "Bilbao",
           descripcion: "Hospedaje 1",
-          imagen: "Hospedaje 1",
+          imagen: "../../assets/imgs/Hospedaje/hoteloccidentalbilbao.jpg",
         },
         {
-          nombre: "Hospedaje 2",
-          ubicacion: "Hospedaje 2",
+          nombre: "Hotel Puerta de Bilbao",
+          ubicacion: "Barakaldo",
           descripcion: "Hospedaje 2",
-          imagen: "Hospedaje 2",
+          imagen: "../../assets/imgs/Hospedaje/hotelpuertadebilbao.jpg",
         },
         {
           nombre: "Hospedaje 3",
@@ -110,19 +111,7 @@ export class contentPage {
           ubicacion: "Hospedaje 6",
           descripcion: "Hospedaje 6",
           imagen: "Hospedaje 6",
-        },
-        {
-          nombre: "Hospedaje 7",
-          ubicacion: "Hospedaje 7",
-          descripcion: "Hospedaje 7",
-          imagen: "Hospedaje 7",
-        },
-        {
-          nombre: "Hospedaje 8",
-          ubicacion: "Hospedaje 8",
-          descripcion: "Hospedaje 8",
-          imagen: "Hospedaje 8",
-        }, ];
+        }];
    
     } 
     else if (this.objeto == "Gastronomia") {
@@ -182,54 +171,43 @@ export class contentPage {
 
       this.informacion = [ 
         {
-          nombre: "Senderismo",
-          ubicacion: "Actividad 1",
-          descripcion: "Actividad 1",
-          imagen: "../../assets/imgs/Actividades/senderismo.jpg",
+          tema:4,
+          nombre:"Senderismo",
+          ubicacion:"Kortezubi",
+          descripcion:"Recorre las rutas mas profundas de los bosques de urdaibai.",
+          imagen:"../../assets/imgs/actividades/senderismo.jpg",
         },
         {
-          nombre: "Piraguismo",
-          ubicacion: "Actividad 2",
-          descripcion: "Actividad 2",
-          imagen: "../../assets/imgs/Actividades/piraguismo.jpg",
-        },
+          tema:4,
+          nombre:"Paseo Hipico",
+          ubicacion:"Murueta",
+          descripcion:"Pasea en caballo por los montes y pueblos.",
+          imagen:"../../assets/imgs/actividades/caballo.jpg",  },
         {
-          nombre: "Actividad 3",
-          ubicacion: "Actividad 3",
-          descripcion: "Actividad 3",
-          imagen: "Actividad 3",
-        },
+          tema:4,
+          nombre:"Piraguismo",
+          ubicacion:"Laida",
+          descripcion:"Pasea en piragua por la marisma.",
+          imagen:"../../assets/imgs/actividades/piragua.jpg",  },
         {
-          nombre: "Actividad 4",
-          ubicacion: "Actividad 4",
-          descripcion: "Actividad 4",
-          imagen: "Actividad 4",
-        },
+          tema:4,
+          nombre:"Surf",
+          ubicacion:"Mundaka",
+          descripcion:"Surfea en mundaka o laga.",
+          imagen:"../../assets/imgs/actividades/surf.jpg",  },
         {
-          nombre: "Actividad 5",
-          ubicacion: "Actividad 5",
-          descripcion: "Actividad 5",
-          imagen: "Actividad 5",
-        },
+          tema:4,
+          nombre:"Paseos maritimos",
+          ubicacion:"Bermeo",
+          descripcion:"Paseos en barco por la costa.",
+          imagen:"../../assets/imgs/actividades/paseobarco.jpg",  },
         {
-          nombre: "Actividad 6",
-          ubicacion: "Actividad 6",
-          descripcion: "Actividad 6",
-          imagen: "Actividad 6",
-        },
-        {
-          nombre: "Actividad 7",
-          ubicacion: "Actividad 7",
-          descripcion: "Actividad 7",
-          imagen: "Actividad 7",
-        },
-        {
-          nombre: "Actividad 8",
-          ubicacion: "Actividad 8",
-          descripcion: "Actividad 8",
-          imagen: "Actividad 8",
-        }, ];  
-
+          tema:4,
+          nombre:"Museos",
+          ubicacion:"Busturia, Bermeo, Gernika",
+          descripcion:"Visita los varios museos de los que dispone urdaibai.",
+          imagen:"../../assets/imgs/actividades/museo.jpg",  
+        } ]; 
     }
 
   }

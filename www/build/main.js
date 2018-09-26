@@ -37,67 +37,68 @@ var contentPage = /** @class */ (function () {
             this.informacion = [
                 {
                     nombre: "Bermeo",
-                    ubicacion: "País Vasco",
+                    ubicacion: "Bizkaia",
                     descripcion: "Fundada en 1236, la villa ostentó el título de 'Cabeza de Vizcaya' desde el año 1476 hasta 1602, siendo la principal población del Señorío de Vizcaya.",
                     imagen: "../../assets/imgs/Lugares/bermeo.jpg",
+                    tema: 1,
                 },
                 {
                     nombre: "Mundaka",
-                    ubicacion: "País Vasco",
+                    ubicacion: "Bizkaia",
                     descripcion: "Mundaka es una anteiglesia y municipio de España situado en la margen izquierda de la desembocadura de la ría de Mundaca, al norte de la provincia de Vizcaya, en la comunidad autónoma del País Vasco.",
                     imagen: "../../assets/imgs/Lugares/mundaka.jpg",
+                    tema: 1,
                 },
                 {
-                    nombre: "Lugar 3",
-                    ubicacion: "Lugar 3",
-                    descripcion: "Lugar 3",
-                    imagen: "Lugar 3",
+                    nombre: "Bilbao",
+                    ubicacion: "Bizkaia",
+                    descripcion: "Es la capital de facto del País Vasco y su centro está repleto de rascacielos. Es famosa por el Museo Guggenheim Bilbao, diseñado por Frank Gehry, que provocó la revitalización de la ciudad tras su inauguración en 1997.",
+                    imagen: "../../assets/imgs/Lugares/bilbao.jpg",
+                    tema: 1,
                 },
                 {
-                    nombre: "Lugar 4",
-                    ubicacion: "Lugar 4",
-                    descripcion: "Lugar 4",
-                    imagen: "Lugar 6",
+                    nombre: "Bakio",
+                    ubicacion: "Bizkaia",
+                    descripcion: "El municipio se llamaba antiguamente Basigo de Bakio, siendo este el nombre de su principal barrio. Está formado por un pequeño valle drenado en su interior por el río Zarraga o Estepona, y el pequeño Ondarra que desemboca en plena playa.",
+                    imagen: "../../assets/imgs/Lugares/bakio.jpg",
+                    tema: 1,
                 },
                 {
-                    nombre: "Lugar 5",
-                    ubicacion: "Lugar 5",
-                    descripcion: "Lugar 5",
-                    imagen: "Lugar 6",
+                    nombre: "Lekeitio",
+                    ubicacion: "Bizkaia",
+                    descripcion: "Situada a orillas del golfo de Vizcaya en la cornisa cantábrica, Lequeitio es un destino turístico importante. Un paisaje privilegiado adornado con la isla de San Nicolás y la ría del Lea y con dos amplias playas.",
+                    imagen: "../../assets/imgs/Lugares/lekeitio.jpg",
+                    tema: 1,
                 },
                 {
-                    nombre: "Lugar 6",
-                    ubicacion: "Lugar 6",
-                    descripcion: "Lugar 6",
-                    imagen: "Lugar 6",
+                    nombre: "San Juan de Gaztelugatxe",
+                    ubicacion: "Bizkaia",
+                    descripcion: "Gaztelugatxe es un islote de la localidad vizcaína de Bermeo. Está unido al continente por un puente de dos arcos. Sobre la isla hay una ermita dedicada a San Juan que data del siglo X, aunque algunos descubrimientos datan del siglo IX.",
+                    imagen: "../../assets/imgs/Lugares/gaztelugatxe.jpg",
+                    tema: 1,
                 },
                 {
-                    nombre: "Lugar 7",
-                    ubicacion: "Lugar 7",
-                    descripcion: "Lugar 7",
-                    imagen: "Lugar 7",
-                },
-                {
-                    nombre: "Lugar 8",
-                    ubicacion: "Lugar 8",
-                    descripcion: "Lugar 8",
-                    imagen: "Lugar 8",
+                    nombre: "Zelaieta",
+                    ubicacion: "Bizkaia",
+                    descripcion: "Pueblo muy bonito",
+                    imagen: "../../assets/imgs/Lugares/zelaieta.jpg",
+                    tema: 1,
                 },
             ];
         }
         else if (this.objeto == "Hospedaje") {
             this.informacion = [
                 {
-                    nombre: "Hospedaje 1",
-                    ubicacion: "Hospedaje 1",
+                    nombre: "Hotel Occidental",
+                    ubicacion: "Bilbao",
                     descripcion: "Hospedaje 1",
-                    imagen: "Hospedaje 1",
+                    imagen: "../../assets/imgs/Hospedaje/hoteloccidentalbilbao.jpg",
                 },
                 {
-                    nombre: "Hospedaje 2",
-                    ubicacion: "Hospedaje 2",
+                    nombre: "Hotel Puerta de Bilbao",
+                    ubicacion: "Barakaldo",
                     descripcion: "Hospedaje 2",
-                    imagen: "Hospedaje 2",
+                    imagen: "../../assets/imgs/Hospedaje/hotelpuertadebilbao.jpg",
                 },
                 {
                     nombre: "Hospedaje 3",
@@ -122,19 +123,7 @@ var contentPage = /** @class */ (function () {
                     ubicacion: "Hospedaje 6",
                     descripcion: "Hospedaje 6",
                     imagen: "Hospedaje 6",
-                },
-                {
-                    nombre: "Hospedaje 7",
-                    ubicacion: "Hospedaje 7",
-                    descripcion: "Hospedaje 7",
-                    imagen: "Hospedaje 7",
-                },
-                {
-                    nombre: "Hospedaje 8",
-                    ubicacion: "Hospedaje 8",
-                    descripcion: "Hospedaje 8",
-                    imagen: "Hospedaje 8",
-                },
+                }
             ];
         }
         else if (this.objeto == "Gastronomia") {
@@ -192,63 +181,53 @@ var contentPage = /** @class */ (function () {
         else {
             this.informacion = [
                 {
+                    tema: 4,
                     nombre: "Senderismo",
-                    ubicacion: "Actividad 1",
-                    descripcion: "Actividad 1",
-                    imagen: "../../assets/imgs/Actividades/senderismo.jpg",
+                    ubicacion: "Kortezubi",
+                    descripcion: "Recorre las rutas mas profundas de los bosques de urdaibai.",
+                    imagen: "../../assets/imgs/actividades/senderismo.jpg",
                 },
                 {
+                    tema: 4,
+                    nombre: "Paseo Hipico",
+                    ubicacion: "Murueta",
+                    descripcion: "Pasea en caballo por los montes y pueblos.",
+                    imagen: "../../assets/imgs/actividades/caballo.jpg",
+                },
+                {
+                    tema: 4,
                     nombre: "Piraguismo",
-                    ubicacion: "Actividad 2",
-                    descripcion: "Actividad 2",
-                    imagen: "../../assets/imgs/Actividades/piraguismo.jpg",
+                    ubicacion: "Laida",
+                    descripcion: "Pasea en piragua por la marisma.",
+                    imagen: "../../assets/imgs/actividades/piragua.jpg",
                 },
                 {
-                    nombre: "Actividad 3",
-                    ubicacion: "Actividad 3",
-                    descripcion: "Actividad 3",
-                    imagen: "Actividad 3",
+                    tema: 4,
+                    nombre: "Surf",
+                    ubicacion: "Mundaka",
+                    descripcion: "Surfea en mundaka o laga.",
+                    imagen: "../../assets/imgs/actividades/surf.jpg",
                 },
                 {
-                    nombre: "Actividad 4",
-                    ubicacion: "Actividad 4",
-                    descripcion: "Actividad 4",
-                    imagen: "Actividad 4",
+                    tema: 4,
+                    nombre: "Paseos maritimos",
+                    ubicacion: "Bermeo",
+                    descripcion: "Paseos en barco por la costa.",
+                    imagen: "../../assets/imgs/actividades/paseobarco.jpg",
                 },
                 {
-                    nombre: "Actividad 5",
-                    ubicacion: "Actividad 5",
-                    descripcion: "Actividad 5",
-                    imagen: "Actividad 5",
-                },
-                {
-                    nombre: "Actividad 6",
-                    ubicacion: "Actividad 6",
-                    descripcion: "Actividad 6",
-                    imagen: "Actividad 6",
-                },
-                {
-                    nombre: "Actividad 7",
-                    ubicacion: "Actividad 7",
-                    descripcion: "Actividad 7",
-                    imagen: "Actividad 7",
-                },
-                {
-                    nombre: "Actividad 8",
-                    ubicacion: "Actividad 8",
-                    descripcion: "Actividad 8",
-                    imagen: "Actividad 8",
-                },
+                    tema: 4,
+                    nombre: "Museos",
+                    ubicacion: "Busturia, Bermeo, Gernika",
+                    descripcion: "Visita los varios museos de los que dispone urdaibai.",
+                    imagen: "../../assets/imgs/actividades/museo.jpg",
+                }
             ];
         }
     }
     contentPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-<<<<<<< HEAD
             selector: 'page-content',template:/*ion-inline-start:"C:\Users\ik_2dm3\Desktop\Ionic\ProyectoEsteban\src\pages\content\content.html"*/'<!--\n\n  Generated template for the ContentPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n   \n\n  <ion-navbar>\n\n    <ion-title>{{objeto}}</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content class="cards-bg">\n\n \n\n    <ion-card  *ngFor="let elemento of informacion">\n\n    <img src="{{elemento.imagen}}"/>\n\n    <ion-card-content>\n\n      <ion-card-title>\n\n        {{elemento.nombre}}\n\n      </ion-card-title>\n\n      <p>\n\n       {{elemento.descripcion}}\n\n      </p>\n\n    </ion-card-content>\n\n\n\n    <ion-row no-padding>\n\n      <ion-col>\n\n        <button ion-button clear small color="danger" icon-start>\n\n          <ion-icon name=\'md-map\'></ion-icon>\n\n          Ubicación\n\n        </button>\n\n      </ion-col>\n\n      <ion-col text-center>\n\n        <button ion-button clear small color="primary" icon-start>\n\n          <ion-icon name=\'md-images\'></ion-icon>\n\n          Fotos\n\n        </button>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-card>\n\n\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\ik_2dm3\Desktop\Ionic\ProyectoEsteban\src\pages\content\content.html"*/,
-=======
-            selector: 'page-content',template:/*ion-inline-start:"F:\ionic\src\pages\content\content.html"*/'<!--\n\n  Generated template for the ContentPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n   \n\n  <ion-navbar>\n\n    <ion-title>{{objeto}}</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content class="cards-bg">\n\n \n\n    <ion-card  *ngFor="let elemento of informacion">\n\n    <img src="{{elemento.imagen}}"/>\n\n    <ion-card-content>\n\n      <ion-card-title>\n\n        {{elemento.nombre}}\n\n      </ion-card-title>\n\n      <p>\n\n       {{elemento.descripcion}}\n\n      </p>\n\n    </ion-card-content>\n\n\n\n    <ion-row no-padding>\n\n      <ion-col>\n\n        <button ion-button clear small color="danger" icon-start>\n\n          <ion-icon name=\'md-map\'></ion-icon>\n\n          Ubicación\n\n        </button>\n\n      </ion-col>\n\n      <ion-col text-center>\n\n        <button ion-button clear small color="primary" icon-start>\n\n          <ion-icon name=\'md-images\'></ion-icon>\n\n          Fotos\n\n        </button>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-card>\n\n\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"F:\ionic\src\pages\content\content.html"*/,
->>>>>>> 5b11feaffda7dd7b21e95a8d89b8330363313668
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_data_data__["a" /* DataProvider */]])
     ], contentPage);
@@ -324,16 +303,155 @@ var __metadata = (this && this.__metadata) || function (k, v) {
   and Angular DI.
 */
 var DataProvider = /** @class */ (function () {
+    //CargarItems:[] = [];
     function DataProvider() {
-        this.Lugares = [];
+        this.BaseDatos = [];
         console.log('Hello DataProvider Provider');
-        this.Lugares = [
+        this.BaseDatos = [
             {
-                nombre: "Lugar 1",
-                ubicacion: "Lugar 1",
-                descripcion: "Lugar 1",
-                imagen: "Lugar 1",
-            }
+                nombre: "Hotel Occidental",
+                ubicacion: "Bilbao",
+                descripcion: "Hospedaje 1",
+                imagen: "../../assets/imgs/Hospedaje/hoteloccidentalbilbao.jpg",
+            },
+            {
+                nombre: "Hotel Puerta de Bilbao",
+                ubicacion: "Barakaldo",
+                descripcion: "Hospedaje 2",
+                imagen: "../../assets/imgs/Hospedaje/hotelpuertadebilbao.jpg",
+            },
+            {
+                nombre: "Hospedaje 3",
+                ubicacion: "Hospedaje 3",
+                descripcion: "Hospedaje 3",
+                imagen: "Hospedaje 3",
+            },
+            {
+                nombre: "Hospedaje 4",
+                ubicacion: "Hospedaje 4",
+                descripcion: "Hospedaje 4",
+                imagen: "Hospedaje 4",
+            },
+            {
+                nombre: "Hospedaje 5",
+                ubicacion: "Hospedaje 5",
+                descripcion: "Hospedaje 5",
+                imagen: "Hospedaje 5",
+            },
+            {
+                nombre: "Hospedaje 6",
+                ubicacion: "Hospedaje 6",
+                descripcion: "Hospedaje 6",
+                imagen: "Hospedaje 6",
+            },
+            {
+                nombre: "Hospedaje 7",
+                ubicacion: "Hospedaje 7",
+                descripcion: "Hospedaje 7",
+                imagen: "Hospedaje 7",
+            },
+            {
+                nombre: "Hospedaje 8",
+                ubicacion: "Hospedaje 8",
+                descripcion: "Hospedaje 8",
+                imagen: "Hospedaje 8",
+            },
+            {
+                nombre: "Gastronomia 1",
+                ubicacion: "Gastronomia 1",
+                descripcion: "Gastronomia 1",
+                imagen: "Gastronomia 1",
+            },
+            {
+                nombre: "Gastronomia 2",
+                ubicacion: "Gastronomia 2",
+                descripcion: "Gastronomia 2",
+                imagen: "Gastronomia 2",
+            },
+            {
+                nombre: "Gastronomia 3",
+                ubicacion: "Gastronomia 3",
+                descripcion: "Gastronomia 3",
+                imagen: "Gastronomia 3",
+            },
+            {
+                nombre: "Gastronomia 4",
+                ubicacion: "Gastronomia 4",
+                descripcion: "Gastronomia 4",
+                imagen: "Gastronomia 4",
+            },
+            {
+                nombre: "Gastronomia 5",
+                ubicacion: "Gastronomia 5",
+                descripcion: "Gastronomia 5",
+                imagen: "Gastronomia 5",
+            },
+            {
+                nombre: "Gastronomia 6",
+                ubicacion: "Gastronomia 6",
+                descripcion: "Gastronomia 6",
+                imagen: "Gastronomia 6",
+            },
+            {
+                nombre: "Gastronomia 7",
+                ubicacion: "Gastronomia 7",
+                descripcion: "Gastronomia 7",
+                imagen: "Gastronomia 7",
+            },
+            {
+                nombre: "Gastronomia 8",
+                ubicacion: "Gastronomia 8",
+                descripcion: "Gastronomia 8",
+                imagen: "Gastronomia 8",
+            },
+            {
+                nombre: "Senderismo",
+                ubicacion: "Actividad 1",
+                descripcion: "Actividad 1",
+                imagen: "../../assets/imgs/Actividades/senderismo.jpg",
+            },
+            {
+                nombre: "Piraguismo",
+                ubicacion: "Actividad 2",
+                descripcion: "Actividad 2",
+                imagen: "../../assets/imgs/Actividades/piraguismo.jpg",
+            },
+            {
+                nombre: "Actividad 3",
+                ubicacion: "Actividad 3",
+                descripcion: "Actividad 3",
+                imagen: "Actividad 3",
+            },
+            {
+                nombre: "Actividad 4",
+                ubicacion: "Actividad 4",
+                descripcion: "Actividad 4",
+                imagen: "Actividad 4",
+            },
+            {
+                nombre: "Actividad 5",
+                ubicacion: "Actividad 5",
+                descripcion: "Actividad 5",
+                imagen: "Actividad 5",
+            },
+            {
+                nombre: "Actividad 6",
+                ubicacion: "Actividad 6",
+                descripcion: "Actividad 6",
+                imagen: "Actividad 6",
+            },
+            {
+                nombre: "Actividad 7",
+                ubicacion: "Actividad 7",
+                descripcion: "Actividad 7",
+                imagen: "Actividad 7",
+            },
+            {
+                nombre: "Actividad 8",
+                ubicacion: "Actividad 8",
+                descripcion: "Actividad 8",
+                imagen: "Actividad 8",
+            },
         ];
     }
     DataProvider = __decorate([
@@ -372,28 +490,11 @@ var HomePage = /** @class */ (function () {
         this.navCtrl = navCtrl;
     }
     HomePage.prototype.AbrirPagina = function (tema) {
-        switch (tema) {
-            case ("Lugares"):
-                this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__content_content__["a" /* contentPage */], { opcion: tema });
-                break;
-            case ("Hospedaje"):
-                this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__content_content__["a" /* contentPage */], { opcion: tema });
-                break;
-            case ("Gastronomia"):
-                this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__content_content__["a" /* contentPage */], { opcion: tema });
-                break;
-            case ("Actividades"):
-                this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__content_content__["a" /* contentPage */], { opcion: tema });
-                break;
-        }
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__content_content__["a" /* contentPage */], { opcion: tema });
     };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-<<<<<<< HEAD
             selector: 'page-home',template:/*ion-inline-start:"C:\Users\ik_2dm3\Desktop\Ionic\ProyectoEsteban\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      Urdaibai Link\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content class="card-background-page">\n\n  <ion-card (click)="AbrirPagina(\'Lugares\')">\n\n    <img src="../../assets/imgs/Interes.jpg"/>\n\n    <div class="card-title">Lugares</div>\n\n  </ion-card>\n\n\n\n  <ion-card (click)="AbrirPagina(\'Hospedaje\')">\n\n    <img src="../../assets/imgs/Hotel.jpg"/>\n\n    <div class="card-title">Hospedaje</div>\n\n  </ion-card>\n\n\n\n  <ion-card (click)="AbrirPagina(\'Gastronomia\')">\n\n    <img src="../../assets/imgs/Restaurante.jpg" />\n\n    <div class="card-title">Gastronomia</div>\n\n  </ion-card>\n\n\n\n  <ion-card (click)="AbrirPagina(\'Actividades\')">\n\n    <img src="../../assets/imgs/Caballo.jpg"/>\n\n    <div class="card-title">Actividades</div>\n\n  </ion-card>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\ik_2dm3\Desktop\Ionic\ProyectoEsteban\src\pages\home\home.html"*/
-=======
-            selector: 'page-home',template:/*ion-inline-start:"F:\ionic\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      Urdaibai Link\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content class="card-background-page">\n\n  <ion-card (click)="AbrirPagina(\'Lugares\')">\n\n    <img src="../../assets/imgs/Interes.jpg"/>\n\n    <div class="card-title">Lugares</div>\n\n  </ion-card>\n\n\n\n  <ion-card (click)="AbrirPagina(\'Hospedaje\')">\n\n    <img src="../../assets/imgs/Hotel.jpg"/>\n\n    <div class="card-title">Hospedaje</div>\n\n  </ion-card>\n\n\n\n  <ion-card (click)="AbrirPagina(\'Gastronomia\')">\n\n    <img src="../../assets/imgs/Restaurante.jpg" />\n\n    <div class="card-title">Gastronomia</div>\n\n  </ion-card>\n\n\n\n  <ion-card (click)="AbrirPagina(\'Actividades\')">\n\n    <img src="../../assets/imgs/Caballo.jpg"/>\n\n    <div class="card-title">Actividades</div>\n\n  </ion-card>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"F:\ionic\src\pages\home\home.html"*/
->>>>>>> 5b11feaffda7dd7b21e95a8d89b8330363313668
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
     ], HomePage);
@@ -524,11 +625,7 @@ var MyApp = /** @class */ (function () {
         });
     }
     MyApp = __decorate([
-<<<<<<< HEAD
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\ik_2dm3\Desktop\Ionic\ProyectoEsteban\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n\n'/*ion-inline-end:"C:\Users\ik_2dm3\Desktop\Ionic\ProyectoEsteban\src\app\app.html"*/
-=======
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"F:\ionic\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n\n'/*ion-inline-end:"F:\ionic\src\app\app.html"*/
->>>>>>> 5b11feaffda7dd7b21e95a8d89b8330363313668
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
