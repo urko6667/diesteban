@@ -129,52 +129,46 @@ var contentPage = /** @class */ (function () {
         else if (this.objeto == "Gastronomia") {
             this.informacion = [
                 {
-                    nombre: "Gastronomia 1",
-                    ubicacion: "Gastronomia 1",
-                    descripcion: "Gastronomia 1",
-                    imagen: "Gastronomia 1",
+                    tema: 3,
+                    nombre: "azurmendi",
+                    ubicacion: " Bizkaia",
+                    descripcion: "Un mar de autenticidad donde sentir la tradición y la vanguardia.",
+                    imagen: "../../assets/imgs/Gastronomia/azurmendi.jpg",
                 },
                 {
-                    nombre: "Gastronomia 2",
-                    ubicacion: "Gastronomia 2",
-                    descripcion: "Gastronomia 2",
-                    imagen: "Gastronomia 2",
+                    tema: 3,
+                    nombre: "Ibaiondo",
+                    ubicacion: "Maruri-Jatabe",
+                    descripcion: "Gran asador con materias las mejores materias primas de la zona.",
+                    imagen: "../../assets/imgs/Gastronomia/ibaiondo.jpg",
                 },
                 {
-                    nombre: "Gastronomia 3",
-                    ubicacion: "Gastronomia 3",
-                    descripcion: "Gastronomia 3",
-                    imagen: "Gastronomia 3",
+                    tema: 3,
+                    nombre: "Baserri Maitea",
+                    ubicacion: "Atxondoa",
+                    descripcion: "Cada detalle está pensado para vosotros.",
+                    imagen: "../../assets/imgs/Gastronomia/Baserri.jpg",
                 },
                 {
-                    nombre: "Gastronomia 4",
-                    ubicacion: "Gastronomia 4",
-                    descripcion: "Gastronomia 4",
-                    imagen: "Gastronomia 4",
+                    tema: 3,
+                    nombre: "Bikandi Etxea",
+                    ubicacion: "Bilbao, Somera",
+                    descripcion: "Restaurante con muy buena comida en pleno casco viejo",
+                    imagen: "../../assets/imgs/Gastronomia/bikando_etxea.jpg",
                 },
                 {
-                    nombre: "Gastronomia 5",
-                    ubicacion: "Gastronomia 5",
-                    descripcion: "Gastronomia 5",
-                    imagen: "Gastronomia 5",
+                    tema: 3,
+                    nombre: "Blueizar",
+                    ubicacion: "Bilbao, Abando",
+                    descripcion: "Disfruta de la mejor alta comida en bilbao ",
+                    imagen: "../../assets/imgs/Gastronomia/blueizar.jpg",
                 },
                 {
-                    nombre: "Gastronomia 6",
-                    ubicacion: "Gastronomia 6",
-                    descripcion: "Gastronomia 6",
-                    imagen: "Gastronomia 6",
-                },
-                {
-                    nombre: "Gastronomia 7",
-                    ubicacion: "Gastronomia 7",
-                    descripcion: "Gastronomia 7",
-                    imagen: "Gastronomia 7",
-                },
-                {
-                    nombre: "Gastronomia 8",
-                    ubicacion: "Gastronomia 8",
-                    descripcion: "Gastronomia 8",
-                    imagen: "Gastronomia 8",
+                    tema: 3,
+                    nombre: "KUMA",
+                    ubicacion: "Bilbao, Ercilla",
+                    descripcion: "Descubre otras culturas fusionadas con la cultura Vasca.",
+                    imagen: "../../assets/imgs/Gastronomia/kuma.jpg",
                 },
             ];
         }
@@ -229,9 +223,10 @@ var contentPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-content',template:/*ion-inline-start:"C:\Users\ik_2dm3\Desktop\Ionic\ProyectoEsteban\src\pages\content\content.html"*/'<!--\n\n  Generated template for the ContentPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n   \n\n  <ion-navbar>\n\n    <ion-title>{{objeto}}</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content class="cards-bg">\n\n \n\n    <ion-card  *ngFor="let elemento of informacion">\n\n    <img src="{{elemento.imagen}}"/>\n\n    <ion-card-content>\n\n      <ion-card-title>\n\n        {{elemento.nombre}}\n\n      </ion-card-title>\n\n      <p>\n\n       {{elemento.descripcion}}\n\n      </p>\n\n    </ion-card-content>\n\n\n\n    <ion-row no-padding>\n\n      <ion-col>\n\n        <button ion-button clear small color="danger" icon-start>\n\n          <ion-icon name=\'md-map\'></ion-icon>\n\n          Ubicación\n\n        </button>\n\n      </ion-col>\n\n      <ion-col text-center>\n\n        <button ion-button clear small color="primary" icon-start>\n\n          <ion-icon name=\'md-images\'></ion-icon>\n\n          Fotos\n\n        </button>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-card>\n\n\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\ik_2dm3\Desktop\Ionic\ProyectoEsteban\src\pages\content\content.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_data_data__["a" /* DataProvider */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__providers_data_data__["a" /* DataProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__providers_data_data__["a" /* DataProvider */]) === "function" && _c || Object])
     ], contentPage);
     return contentPage;
+    var _a, _b, _c;
 }());
 
 //# sourceMappingURL=content.js.map

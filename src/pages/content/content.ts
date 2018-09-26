@@ -117,54 +117,48 @@ export class contentPage {
     else if (this.objeto == "Gastronomia") {
 
       this.informacion = [ 
-        {
-          nombre: "Gastronomia 1",
-          ubicacion: "Gastronomia 1",
-          descripcion: "Gastronomia 1",
-          imagen: "Gastronomia 1",
-        },
-        {
-          nombre: "Gastronomia 2",
-          ubicacion: "Gastronomia 2",
-          descripcion: "Gastronomia 2",
-          imagen: "Gastronomia 2",
-        },
-        {
-          nombre: "Gastronomia 3",
-          ubicacion: "Gastronomia 3",
-          descripcion: "Gastronomia 3",
-          imagen: "Gastronomia 3",
-        },
-        {
-          nombre: "Gastronomia 4",
-          ubicacion: "Gastronomia 4",
-          descripcion: "Gastronomia 4",
-          imagen: "Gastronomia 4",
-        },
-        {
-          nombre: "Gastronomia 5",
-          ubicacion: "Gastronomia 5",
-          descripcion: "Gastronomia 5",
-          imagen: "Gastronomia 5",
-        },
-        {
-          nombre: "Gastronomia 6",
-          ubicacion: "Gastronomia 6",
-          descripcion: "Gastronomia 6",
-          imagen: "Gastronomia 6",
-        },
-        {
-          nombre: "Gastronomia 7",
-          ubicacion: "Gastronomia 7",
-          descripcion: "Gastronomia 7",
-          imagen: "Gastronomia 7",
-        },
-        {
-          nombre: "Gastronomia 8",
-          ubicacion: "Gastronomia 8",
-          descripcion: "Gastronomia 8",
-          imagen: "Gastronomia 8",
-        }, ];
+      {
+        tema:3,
+        nombre:"azurmendi",
+        ubicacion:" Bizkaia",
+        descripcion:"Un mar de autenticidad donde sentir la tradición y la vanguardia.",
+        imagen:"../../assets/imgs/Gastronomia/azurmendi.jpg",
+      },
+    {
+        tema:3,
+        nombre:"Ibaiondo",
+        ubicacion:"Maruri-Jatabe",
+        descripcion:"Gran asador con materias las mejores materias primas de la zona.",
+        imagen:"../../assets/imgs/Gastronomia/ibaiondo.jpg",
+      },
+     {
+        tema:3,
+        nombre:"Baserri Maitea",
+        ubicacion:"Atxondoa",
+        descripcion:"Cada detalle está pensado para vosotros.",
+        imagen:"../../assets/imgs/Gastronomia/Baserri.jpg",
+      },
+     {
+        tema:3,
+        nombre:"Bikandi Etxea",
+        ubicacion:"Bilbao, Somera",
+        descripcion:"Restaurante con muy buena comida en pleno casco viejo",
+        imagen:"../../assets/imgs/Gastronomia/bikando_etxea.jpg",
+      },
+     {
+        tema:3,
+        nombre:"Blueizar",
+        ubicacion:"Bilbao, Abando",
+        descripcion:"Disfruta de la mejor alta comida en bilbao ",
+        imagen:"../../assets/imgs/Gastronomia/blueizar.jpg",
+      },
+     {
+        tema:3,
+        nombre:"KUMA",
+        ubicacion:"Bilbao, Ercilla",
+        descripcion:"Descubre otras culturas fusionadas con la cultura Vasca.",
+        imagen:"../../assets/imgs/Gastronomia/kuma.jpg",
+      }, ];
 
     } 
     else {
